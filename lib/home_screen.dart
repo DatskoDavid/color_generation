@@ -1,9 +1,8 @@
 import 'dart:math';
 
 import 'package:color_generating/constants/constants.dart';
+import 'package:color_generating/history_screen.dart';
 import 'package:flutter/material.dart';
-
-import 'history_screen.dart';
 
 /// Main screen of app
 class HomeScreen extends StatefulWidget {

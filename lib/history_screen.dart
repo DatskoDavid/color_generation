@@ -1,6 +1,5 @@
+import 'package:color_generating/constants/constants.dart';
 import 'package:flutter/material.dart';
-
-import 'constants/constants.dart';
 
 /// Screen for display history of colors
 class HistoryScreen extends StatelessWidget {
