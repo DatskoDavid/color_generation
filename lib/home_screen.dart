@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: GestureDetector(
         onTap: generateRandomColor,
         child: ColoredBox(
-          color: randomColor ?? const Color.fromARGB(alphaChannel, 0, 0, 0),
+          color: randomColor ?? const Color.fromARGB(alphaChannel, 255, 191, 0),
           child: Center(
             child: Container(
               padding: const EdgeInsets.all(16.0),
